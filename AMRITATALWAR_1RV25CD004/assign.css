@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #a17db8; /* lavender pink */
+    text-align: center;
+}
+
+/* PROFILE */
+.profile img {
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.profile h2 {
+    color: #060116;
+}
+
+.profile p {
+    width: 60%;
+    margin: auto;
+    font-style: italic;
+}
+
+/* LINE */
+hr {
+    width: 60%;
+    margin: 20px auto;
+}
+
+/* GUIDELINES */
+.guidelines {
+    background: #d0bfe6;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+/* TASK BOX */
+.task-box {
+    background: #a194b1;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.task-box h2 {
+    color: #3b1fa3;
+}
+
+/* INPUT */
+.input-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #4b2bbf;
+}
+
+/* BUTTON */
+button {
+    background: #b7d3b0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* TASK LIST */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #7fb5b5;
+    margin: 10px auto;
+    padding: 12px;
+    width: 80%;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;  /* pushes delete to right */
+    align-items: center;
+}
+
+/* TEXT */
+li span {
+    color: #4b2bbf;
+    font-size: 16px;
+}
+
+/* DELETE BUTTON (LIKE YOUR IMAGE 🔥) */
+.delete-btn {
+    background: #e63946;
+    color: rgb(38, 27, 27);
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
